@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -26,18 +27,46 @@ public class GameManager : MonoBehaviour
 
     [Header("Drunk Values")]
     [SerializeField] private float CurrentDrunkLevel = 0.0f;
+    [SerializeField] private float IncreaseInDrunkness = 0.1f;
 
-    public void MakeDrunker()
+
+    public void MakeDrunker(float durationOfLerp)
     {
-        if(CurrentDrunkLevel + 0.1f < 1.0f)
+        float newDrunkLevel = 0;
+        if (CurrentDrunkLevel + IncreaseInDrunkness < 1.0f)
         {
-            CurrentDrunkLevel += 0.1f;
+            newDrunkLevel = CurrentDrunkLevel + IncreaseInDrunkness;
         }
 
         else
         {
-            CurrentDrunkLevel = 1.0f;
+            newDrunkLevel = 1.0f;
         }
-        DrunkManager.Instance.SetDrunkness(CurrentDrunkLevel);
+
+        StartCoroutine(LerpDrunkRoutine(durationOfLerp, CurrentDrunkLevel, newDrunkLevel));
+    }
+
+    public void RemoveDrunkness()
+    {
+        StartCoroutine(LerpDrunkRoutine(1.0f, CurrentDrunkLevel, 0));
+    }
+
+
+    private IEnumerator LerpDrunkRoutine(float duration, float start, float end)
+    {
+        float timeElapsed = 0;
+        float newDrunkValue = start;
+        while(timeElapsed < duration)
+        {
+            newDrunkValue = Mathf.Lerp(start, end, timeElapsed / duration);
+            timeElapsed += Time.deltaTime;
+            DrunkManager.Instance.SetDrunkness(newDrunkValue);
+
+            yield return null;
+        }
+
+        newDrunkValue = end;
+        DrunkManager.Instance.SetDrunkness(newDrunkValue);
+        CurrentDrunkLevel = newDrunkValue;
     }
 }
