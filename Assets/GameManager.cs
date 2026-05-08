@@ -30,6 +30,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float IncreaseInDrunkness = 0.1f;
 
 
+    /// <summary>
+    /// Over a set duration of time, make the screen drunker
+    /// </summary>
+    /// <param name="durationOfLerp"></param>
     public void MakeDrunker(float durationOfLerp)
     {
         float newDrunkLevel = 0;
@@ -46,6 +50,9 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LerpDrunkRoutine(durationOfLerp, CurrentDrunkLevel, newDrunkLevel));
     }
 
+    /// <summary>
+    /// Remove Any Drunkness from the screen
+    /// </summary>
     public void RemoveDrunkness()
     {
         StartCoroutine(LerpDrunkRoutine(1.0f, CurrentDrunkLevel, 0));
