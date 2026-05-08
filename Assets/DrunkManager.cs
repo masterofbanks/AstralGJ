@@ -29,6 +29,11 @@ public class DrunkManager : MonoBehaviour
             Debug.Log($"Improper drunkness level set: {drunknessLevel}");
             return;
         }
-        DrunkShaderMaterial.SetFloat("Blend", drunknessLevel);
+        DrunkShaderMaterial.SetFloat("_Blend", drunknessLevel);
+    }
+
+    private void OnDestroy()
+    {
+        DrunkShaderMaterial.SetFloat("_Blend", 0);
     }
 }
