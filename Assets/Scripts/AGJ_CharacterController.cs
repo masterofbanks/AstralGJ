@@ -23,7 +23,6 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private MovementBehavior movementBehavior = MovementBehavior.Normal;
     [SerializeField] private Transform orbitTarget = null;
     [SerializeField] private float orbitSpeed = 10f;
-    [SerializeField] private Vector2 previousPosition;
     [SerializeField] private float previousMagnitude;
 
     void Start()
@@ -99,23 +98,32 @@ public class AGJ_CharacterController : MonoBehaviour
     }
     private void OrbitingMovementBehavior()
     {
-        previousPosition = transform.position;
         Quaternion q = Quaternion.AngleAxis(orbitSpeed, transform.forward);
+        
+        Vector3 newPosition = q * (rb2D.transform.position - orbitTarget.position) + orbitTarget.position;
+
+        transform.right = newPosition - transform.position;
         rb2D.MovePosition(q * (rb2D.transform.position - orbitTarget.position) + orbitTarget.position);
-        rb2D.MoveRotation(rb2D.transform.rotation * q);
+        //rb2D.MoveRotation(rb2D.transform.rotation * q);
+
     }
 
     public void ActivateOrbitingMovement(Transform target)
     {
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
-        previousPosition = transform.position;
-        //orbitSpeed = rb2D.linearVelocity.magnitude;
         rb2D.linearVelocity = Vector2.zero;
+
+        Quaternion offsetRotation = rb2D.transform.rotation;
+        rb2D.transform.SetPositionAndRotation(rb2D.transform.position, offsetRotation);
+
+        AGJ_Camera.Instance.StopFollowing();
     }
     public void ActivateNormalMovement()
     {
         movementBehavior = MovementBehavior.Normal;
         rb2D.linearVelocity = direction * orbitSpeed;
+
+        AGJ_Camera.Instance.StartFollowing();
     }
 }
