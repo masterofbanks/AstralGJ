@@ -4,7 +4,7 @@ public abstract class EnemyFactory
 {
     protected GameObject enemyPrefab;
     protected string NameOfEnemy;
-    public abstract void SpawnEnemy(Vector3 position, Quaternion rotation);
+    public abstract GameObject SpawnEnemy(Vector3 position, Quaternion rotation);
 }
 
 public class AsteroidFactory : EnemyFactory
@@ -15,8 +15,8 @@ public class AsteroidFactory : EnemyFactory
         enemyPrefab = Resources.Load<GameObject>(NameOfEnemy);
     }
 
-    public override void SpawnEnemy(Vector3 position, Quaternion rotation)
+    public override GameObject SpawnEnemy(Vector3 position, Quaternion rotation)
     {
-        Object.Instantiate(enemyPrefab, position, rotation);
+        return Object.Instantiate(enemyPrefab, position, rotation);
     }
 }

@@ -2,20 +2,8 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    private static EnemyManager _instance;
-    public static EnemyManager Instance
-    {
-        get
-        {
-            if(_instance == null)
-            {
-                GameObject enemyManagerObject = Instantiate(Resources.Load<GameObject>("EnemyManager"));
-                _instance = enemyManagerObject.GetComponent<EnemyManager>();
-
-            }
-            return _instance;   
-        }
-    }
+    public static EnemyManager Instance;
+    
 
 
     public EnemyFactory currentEnemyFactory;
@@ -24,12 +12,20 @@ public class EnemyManager : MonoBehaviour
 
     private void Awake()
     {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(Instance.gameObject);
+        }
         currentEnemyFactory = new AsteroidFactory();
     }
 
-    public void ConstructEnemy(Vector3 position)
+    public GameObject ConstructEnemy(Transform position, Quaternion orientation)
     {
-        currentEnemyFactory.SpawnEnemy(position, Quaternion.identity);
+        return currentEnemyFactory.SpawnEnemy(position.position, orientation);
     }
 
 }

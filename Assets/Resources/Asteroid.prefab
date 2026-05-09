@@ -48,7 +48,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab6058214b5f90c4c979c73693cad203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidBehavior
+  DirectionOfTravel: {x: 0, y: 0}
   RotationSpeed: 630
+  speed: 15
+  DetectionRadius: 8
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  ExplosionSFX: {fileID: 3846435123658441255, guid: 97b92f6e35cd4ca4bbd77957d6729d27, type: 3}
+  MaxTimeAlive: 2
 --- !u!50 &9177958358105468166
 Rigidbody2D:
   serializedVersion: 5
