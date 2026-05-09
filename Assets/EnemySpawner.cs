@@ -1,8 +1,24 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public float TimeBetweenNewAsteroids = 2f;
+
+
+    private void Start()
+    {
+        StartCoroutine(SpawnRoutine());
+    }
+    IEnumerator SpawnRoutine()
+    {
+        yield return new WaitForSeconds(TimeBetweenNewAsteroids);
+        SpawnEnemyHere();
+        StartCoroutine(SpawnRoutine());
+    }
+    
     public void SpawnEnemyHere()
     {
         GameObject enemy = EnemyManager.Instance.ConstructEnemy(transform, Quaternion.identity);
