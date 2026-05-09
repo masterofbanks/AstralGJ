@@ -29,6 +29,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float CurrentDrunkLevel = 0.0f;
     [SerializeField] private float IncreaseInDrunkness = 0.1f;
 
+    [Header("Spawning Information")]
+    [SerializeField] private Transform SpawnPosition;
+
+    [Header("Player Information")]
+    public Transform Player;
+
 
     /// <summary>
     /// Over a set duration of time, make the screen drunker
@@ -75,5 +81,10 @@ public class GameManager : MonoBehaviour
         newDrunkValue = end;
         DrunkManager.Instance.SetDrunkness(newDrunkValue);
         CurrentDrunkLevel = newDrunkValue;
+    }
+
+    public void MakeEnemy()
+    {
+        EnemyManager.Instance.ConstructEnemy(SpawnPosition.position);
     }
 }
