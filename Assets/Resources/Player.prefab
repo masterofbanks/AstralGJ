@@ -204,8 +204,11 @@ MonoBehaviour:
   rb2D: {fileID: 0}
   direction: {x: 1, y: 0}
   acceleration: 80
+  steerForce: {x: 0, y: 0}
+  steerStrength: 20
   movementBehavior: 0
   orbitTarget: {fileID: 0}
+  previousOrbitTarget: {fileID: 0}
   orbitSpeed: 5
   previousMagnitude: 0
 --- !u!50 &2053937990006752007

@@ -13832,11 +13832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.57
+      value: -47.8
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.51
+      value: -75.6
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13955,6 +13955,10 @@ PrefabInstance:
     - target: {fileID: 1647973474600888985, guid: 8d1c47bfa74ac434aa4e8f2824713b42, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912837512831668114, guid: 8d1c47bfa74ac434aa4e8f2824713b42, type: 3}
+      propertyPath: steerStrength
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9035808347396167010, guid: 8d1c47bfa74ac434aa4e8f2824713b42, type: 3}
       propertyPath: m_LocalPosition.x
