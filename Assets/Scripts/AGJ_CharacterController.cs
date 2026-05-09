@@ -16,14 +16,18 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb2D;
     [SerializeField] private Vector2 direction;
     [SerializeField] private float acceleration;
+    [SerializeField] private Vector2 steerForce;
+    [SerializeField] private float steerStrength;
 
     //A chain of responsibility that governs how the character reacts to certain obstacles in the environment
     [SerializeField] private List<IEnvironmentalInteractionHandler> environmentalInteractionHandlers = new();
 
     [SerializeField] private MovementBehavior movementBehavior = MovementBehavior.Normal;
     [SerializeField] private Transform orbitTarget = null;
+    [SerializeField] private Transform previousOrbitTarget = null;
     [SerializeField] private float orbitSpeed = 10f;
     [SerializeField] private float previousMagnitude;
+
 
     void Start()
     {
@@ -38,7 +42,10 @@ public class AGJ_CharacterController : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        steerForce.x = 0;
+        steerForce.y = 0;
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && movementBehavior == MovementBehavior.Orbiting)
         {
             Vector2 orbitTargetToMe = (Vector2)transform.position - (Vector2)orbitTarget.position;
             orbitTargetToMe.Normalize();
@@ -55,6 +62,15 @@ public class AGJ_CharacterController : MonoBehaviour
             //Debug.Break();
 
             ActivateNormalMovement();
+        }
+
+        if(Keyboard.current.wKey.isPressed && movementBehavior == MovementBehavior.Normal)
+        {
+            steerForce = transform.up.normalized * steerStrength;
+        }
+        if(Keyboard.current.sKey.isPressed && movementBehavior == MovementBehavior.Normal)
+        {
+            steerForce = transform.up.normalized * -steerStrength;
         }
     }
 
@@ -90,7 +106,7 @@ public class AGJ_CharacterController : MonoBehaviour
     private void NormalMovementBehavior()
     {
         Debug.Log(direction);
-        rb2D.AddForce(direction * Time.deltaTime * acceleration);
+        rb2D.AddForce(direction * Time.deltaTime * acceleration + steerForce);
 
         //Clamp the player's velocity 
         float magnitude = Mathf.Min(rb2D.linearVelocity.magnitude, speedCap);
@@ -108,10 +124,13 @@ public class AGJ_CharacterController : MonoBehaviour
 
     }
 
-    public void ActivateOrbitingMovement(Transform target)
+    public void ActivateOrbitingMovement(Transform target) 
     {
+        if (target == previousOrbitTarget) return;
+
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
+        previousOrbitTarget = orbitTarget;
         rb2D.linearVelocity = Vector2.zero;
 
         Quaternion offsetRotation = rb2D.transform.rotation;
