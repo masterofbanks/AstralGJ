@@ -52,8 +52,13 @@ public class AGJ_Camera : MonoBehaviour
     public void StopFollowing()
     {
         following = false;
+        if(reorientationRoutine != null)
+        {
+            StopCoroutine(reorientationRoutine);
 
-        StopCoroutine(reorientationRoutine);
+
+        }
+
     }
     public void StartFollowing()
     {
