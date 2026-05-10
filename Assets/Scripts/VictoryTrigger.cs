@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class VictoryTrigger : MonoBehaviour
 {
     [SerializeField] private float victorySpeedThreshold = 10;
+    public float VictorySpeedThreshold { get { return victorySpeedThreshold; } }
     [SerializeField] private bool triggeredOnce = false;
     private float victorySequenceProgression = 0f;
     [SerializeField] private float victorySequenceDelayBeforeFadeIn = 2f;
