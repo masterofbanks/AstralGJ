@@ -18,11 +18,18 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private float acceleration;
     [SerializeField] private Vector2 steerForce;
     [SerializeField] private float steerStrength;
+    [SerializeField] private float vehicleRotationSpeed = 5f;
+    [SerializeField] private float vehicleRotationAcceleration = 5f;
+    [SerializeField] private float vehicleRotationDecay = 5f;
+    [SerializeField] private Transform sprite;
+
+
 
     //A chain of responsibility that governs how the character reacts to certain obstacles in the environment
     [SerializeField] private List<IEnvironmentalInteractionHandler> environmentalInteractionHandlers = new();
-
     [SerializeField] private MovementBehavior movementBehavior = MovementBehavior.Normal;
+
+    [Space(15)]
     [SerializeField] private Transform orbitTarget = null;
     [SerializeField] private Transform previousOrbitTarget = null;
     [SerializeField] private float orbitSpeed = 10f;
@@ -36,6 +43,8 @@ public class AGJ_CharacterController : MonoBehaviour
             rb2D = GetComponent<Rigidbody2D>();
             Debug.Assert(rb2D, $"{nameof(AGJ_CharacterController)} needs a RigidBody2D component.");
         }
+
+        Debug.Assert(sprite, $"{nameof(AGJ_CharacterController)} needs a reference to its sprite, which should be a child.");
 
         environmentalInteractionHandlers.Add(new EIH_OrbitHandler());
     }
@@ -72,6 +81,34 @@ public class AGJ_CharacterController : MonoBehaviour
         {
             steerForce = transform.up.normalized * -steerStrength;
         }
+        
+        bool didRotate = false;
+        if(Keyboard.current.aKey.isPressed && movementBehavior == MovementBehavior.Normal)
+        {
+            vehicleRotationSpeed += vehicleRotationAcceleration * Time.deltaTime;
+            didRotate = true;
+        }
+        if(Keyboard.current.dKey.isPressed && movementBehavior == MovementBehavior.Normal)
+        {
+            vehicleRotationSpeed -= vehicleRotationAcceleration * Time.deltaTime;
+            didRotate = true;
+        }
+
+        if (!didRotate)
+        {
+            if(vehicleRotationSpeed > 0)
+            {
+                vehicleRotationSpeed -= vehicleRotationDecay * Time.deltaTime;
+                vehicleRotationSpeed = Mathf.Max(vehicleRotationSpeed, 0);
+            }
+            else
+            {
+                vehicleRotationSpeed += vehicleRotationDecay * Time.deltaTime;
+                vehicleRotationSpeed = Mathf.Min(vehicleRotationSpeed, 0);
+            }
+        }
+        
+        sprite.Rotate(0, 0, vehicleRotationSpeed * Time.deltaTime);
     }
 
     private void FixedUpdate()
