@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: FullScreenPass
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-  m_Active: 0
+  m_Active: 1
   injectionPoint: 550
   fetchColorBuffer: 1
   requirements: 0
@@ -47,7 +47,6 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -1460223494106450245}
   m_RendererFeatureMap: bbf61afd773ebceb
-  m_UseNativeRenderPass: 0
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
