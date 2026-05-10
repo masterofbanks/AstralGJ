@@ -113,6 +113,7 @@ public class AsteroidBehavior : Enemy
             AGJ_CharacterController playerScript = collision.gameObject.GetComponentInParent<AGJ_CharacterController>();
             playerScript.PlayerDeathRoutine();
             GameManager.Instance.MakePlayerDead();
+            StartCoroutine(DeathRoutine());
         }
     }
 

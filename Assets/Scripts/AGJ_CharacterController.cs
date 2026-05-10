@@ -49,7 +49,7 @@ public class AGJ_CharacterController : MonoBehaviour
     [Header("Parry Mechanics")]
     [SerializeField] private float ParryForce = 15f;
     [SerializeField] private GameObject Hitbox;
-    [SerializeField] private LayerMask PlayerLayer;
+    [SerializeField] private LayerMask OrbitLayer;
     private HitboxBehavior hitboxBehaviorScript;
 
 
@@ -145,7 +145,7 @@ public class AGJ_CharacterController : MonoBehaviour
         //a Chain of Responsibility that determines how to react to different pieces
         //of the environment.
         RaycastHit2D hit;
-        hit = Physics2D.Raycast(transform.position, direction, raycastDistance, PlayerLayer);
+        hit = Physics2D.Raycast(transform.position, direction, raycastDistance, OrbitLayer);
         if(hit.collider != null)
         {
             //Which link in the chain can handle this?
