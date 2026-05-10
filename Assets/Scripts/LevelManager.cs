@@ -4,12 +4,10 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public bool HasTutorial = false;
-    public TextMeshPro TutorialTextBox;
+    public TextMeshProUGUI TutorialTextBox;
     public string TutorialText;
-    public Transform PlayerTutorialPoint;
     private void Awake()
     {
-        TutorialTextBox = GetComponent<TextMeshPro>();
         TutorialTextBox.enabled = HasTutorial;
     }
 
@@ -21,8 +19,5 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        TutorialTextBox.transform.position = PlayerTutorialPoint.position;
-    }
+
 }

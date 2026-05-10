@@ -56,7 +56,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   ExplosionSFX: {fileID: 3846435123658441255, guid: 97b92f6e35cd4ca4bbd77957d6729d27, type: 3}
-  MaxTimeAlive: 2
+  MaxTimeAlive: 15
 --- !u!50 &9177958358105468166
 Rigidbody2D:
   serializedVersion: 5
