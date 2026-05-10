@@ -29,7 +29,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2835389273951849273}
   m_Father: {fileID: 9035808347396167010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &7597447979113024689
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 181
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -125,7 +126,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1812692203123282348}
-  - {fileID: 2835389273951849273}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1552012339988313546
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 110
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -200,25 +200,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c4d0fe1b802944a818f047ad03fc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AGJ_CharacterController
-  speedCap: 30
-  speedCapGrowth: 0
-  acceleration: 80
-  accelerationGrowth: 0
-  raycastDistance: 2
+  speedCap: 15
+  speedCapGrowth: 1
+  acceleration: 600
+  accelerationGrowth: 100
+  raycastDistance: 0.6
   rb2D: {fileID: 0}
   direction: {x: 1, y: 0}
   steerForce: {x: 0, y: 0}
   steerStrength: 20
-  vehicleRotationSpeed: 5
-  vehicleRotationAcceleration: 5
-  vehicleRotationDecay: 5
+  vehicleRotationSpeed: 0
+  vehicleRotationAcceleration: 250
+  vehicleRotationDecay: 150
   sprite: {fileID: 1812692203123282348}
   movementBehavior: 0
   orbitTarget: {fileID: 0}
   previousOrbitTarget: {fileID: 0}
-  orbitSpeed: 5
-  orbitSpeedGrowth: 1
-  orbitLaunchSpeedMult: 0.75
+  orbitSpeed: 4
+  orbitSpeedGrowth: 0.5
+  orbitLaunchSpeedMult: 0.55
   previousMagnitude: 0
 --- !u!50 &2053937990006752007
 Rigidbody2D:
@@ -273,12 +273,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3533324968341694637}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.15, y: -0.97, z: 0}
-  m_LocalScale: {x: 0.10000001, y: 2, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 0.97000134, y: 0.1000011, z: 0}
+  m_LocalScale: {x: 0.10000002, y: 1.3333334, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9035808347396167010}
+  m_Father: {fileID: 1812692203123282348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &6847195471910824013
 SpriteRenderer:
@@ -327,7 +327,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 218
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
