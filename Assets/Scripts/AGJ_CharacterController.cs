@@ -41,9 +41,14 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private Transform orbitTarget = null;
     [SerializeField] private Transform previousOrbitTarget = null;
     [SerializeField] private float orbitSpeed = 4f;
+    public float OrbitSpeed { get { return orbitSpeed; } }
     [SerializeField] private float orbitSpeedGrowth = 1f;
     [SerializeField] private float orbitLaunchSpeedMult = .75f;
     [SerializeField] private float previousMagnitude;
+
+    [Space(20)]
+    [SerializeField] private Collider2D environmentalDetector;
+    private List<Collider2D> collisions = new();
 
 
     void Start()
@@ -134,16 +139,18 @@ public class AGJ_CharacterController : MonoBehaviour
         //I want to make this movement system easy to extend, so I'll make use of
         //a Chain of Responsibility that determines how to react to different pieces
         //of the environment.
-        RaycastHit2D hit;
-        hit = Physics2D.Raycast(transform.position, direction, raycastDistance);
-        if(hit.collider != null)
+        collisions.Clear();
+        environmentalDetector.Overlap(ContactFilter2D.noFilter, collisions);
+
+        if(collisions.Count != 0)
         {
             //Which link in the chain can handle this?
-            foreach(IEnvironmentalInteractionHandler handler in environmentalInteractionHandlers)
+            GameObject toBeHandled;
+            foreach (IEnvironmentalInteractionHandler handler in environmentalInteractionHandlers)
             {
-                if (handler.CanIHandleThis(hit.collider.gameObject))
+                if (handler.CanIHandleThis(collisions, out toBeHandled))
                 {
-                    handler.HandleThis(hit.collider.gameObject, hit, this);
+                    handler.HandleThis(toBeHandled, this);
                     break;
                 }
             }
