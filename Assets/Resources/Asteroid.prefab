@@ -50,8 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidBehavior
   DirectionOfTravel: {x: 0, y: 0}
   RotationSpeed: 630
-  speed: 15
-  DetectionRadius: 8
+  speed: 25
+  DetectionRadius: 6.5
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 8

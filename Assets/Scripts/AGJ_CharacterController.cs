@@ -50,6 +50,7 @@ public class AGJ_CharacterController : MonoBehaviour
     [Header("Parry Mechanics")]
     [SerializeField] private float ParryForce = 15f;
     [SerializeField] private GameObject Hitbox;
+    [SerializeField] private GameObject ExplosionVFX;
     [SerializeField] private LayerMask OrbitLayer;
     private HitboxBehavior hitboxBehaviorScript;
 
@@ -242,6 +243,7 @@ public class AGJ_CharacterController : MonoBehaviour
     public void PlayerDeathRoutine()
     {
         AGJ_Camera.Instance.StopFollowing();
+        Instantiate(ExplosionVFX, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

@@ -222,6 +222,7 @@ MonoBehaviour:
   previousMagnitude: 0
   ParryForce: 15
   Hitbox: {fileID: 2510020338513000558, guid: 20a7295e43cff93478d13b0a7a828f6d, type: 3}
+  ExplosionVFX: {fileID: 7291912738885222422, guid: df65600f8f3aed0479c511a5f366bd53, type: 3}
   OrbitLayer:
     serializedVersion: 2
     m_Bits: 16
