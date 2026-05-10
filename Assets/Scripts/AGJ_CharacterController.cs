@@ -84,17 +84,9 @@ public class AGJ_CharacterController : MonoBehaviour
         {
             Vector2 orbitTargetToMe = (Vector2)transform.position - (Vector2)orbitTarget.position;
             orbitTargetToMe.Normalize();
-            Debug.Log((Vector2)transform.position);
-            Debug.Log((Vector2)orbitTarget.position);
-            Debug.Log(orbitTargetToMe);
-            Debug.DrawRay((Vector2)orbitTarget.position, orbitTargetToMe.normalized * 10, Color.red, 10f);
 
             //Get a perpendicular vector
             direction = new Vector2(-orbitTargetToMe.y, orbitTargetToMe.x);
-            
-            Debug.Log(orbitTargetToMe);
-            Debug.DrawRay((Vector2)transform.position, direction.normalized * 10, Color.blue, 10f);
-            //Debug.Break();
 
             ActivateNormalMovement();
         }
@@ -171,7 +163,6 @@ public class AGJ_CharacterController : MonoBehaviour
 
     private void NormalMovementBehavior()
     {
-        Debug.Log(direction);
         rb2D.AddForce(direction * Time.deltaTime * acceleration + steerForce);
 
         //Clamp the player's velocity 
