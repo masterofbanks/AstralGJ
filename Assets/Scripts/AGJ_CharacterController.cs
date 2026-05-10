@@ -116,12 +116,16 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
         bool didRotate = false;
         if(Keyboard.current.aKey.isPressed && movementBehavior == MovementBehavior.Normal)
         {
-            vehicleRotationSpeed += vehicleRotationAcceleration * Time.deltaTime;
+            float multiplier = vehicleRotationSpeed <= 0 ? 2 : 1;
+
+            vehicleRotationSpeed += vehicleRotationAcceleration * multiplier * Time.deltaTime;
             didRotate = true;
         }
         if(Keyboard.current.dKey.isPressed && movementBehavior == MovementBehavior.Normal)
         {
-            vehicleRotationSpeed -= vehicleRotationAcceleration * Time.deltaTime;
+            float multiplier = vehicleRotationSpeed > 0 ? 2 : 1;
+
+            vehicleRotationSpeed -= vehicleRotationAcceleration * multiplier * Time.deltaTime;
             didRotate = true;
         }
 
@@ -205,6 +209,8 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
         if (target == previousOrbitTarget) return;
 
         AugmentSpeed();
+
+        sprite.rotation = Quaternion.identity;
 
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
