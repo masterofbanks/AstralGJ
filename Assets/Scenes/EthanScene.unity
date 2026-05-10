@@ -13956,10 +13956,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4912837512831668114, guid: 8d1c47bfa74ac434aa4e8f2824713b42, type: 3}
-      propertyPath: steerStrength
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 9035808347396167010, guid: 8d1c47bfa74ac434aa4e8f2824713b42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.5
