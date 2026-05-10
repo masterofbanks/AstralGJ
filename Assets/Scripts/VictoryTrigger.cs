@@ -1,12 +1,27 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VictoryTrigger : MonoBehaviour
 {
     [SerializeField] private float victorySpeedThreshold = 10;
     [SerializeField] private bool triggeredOnce = false;
+    private float victorySequenceProgression = 0f;
+    [SerializeField] private float victorySequenceDelayBeforeFadeIn = 2f;
+    [SerializeField] private float fadeTimeInSeconds = 2f;
+    [SerializeField] private float victorySequenceDelayBeforeLevelLoad = 6f;
+    [SerializeField] private string levelToLoad = "EthanScene";
 
     AGJ_CharacterController player;
+    FadeScreen fadeScreen;
+    
 
+    private void Start()
+    {
+        fadeScreen = FindAnyObjectByType<FadeScreen>();
+        Debug.Assert(fadeScreen != null, "There needs to be a FadeScreen child of the scene's canvas for the victory manager to work.");
+        if (fadeScreen == null) Debug.Break();
+    }
 
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -22,8 +37,32 @@ public class VictoryTrigger : MonoBehaviour
             if(!triggeredOnce && player.OrbitSpeed >= victorySpeedThreshold)
             {
                 triggeredOnce = true;
-                Debug.Log("You Win!");
+                StartCoroutine(VictorySequence());
             }
+        }
+    }
+
+    private IEnumerator VictorySequence()
+    {
+        victorySequenceProgression = 0;
+
+        while (true)
+        {
+            victorySequenceProgression += Time.deltaTime;
+
+            if(victorySequenceProgression >= victorySequenceDelayBeforeFadeIn)
+            {
+                victorySequenceDelayBeforeFadeIn = float.MaxValue;
+                fadeScreen.StartFadeIn(1 / fadeTimeInSeconds);
+            }
+            
+            if(victorySequenceProgression >= victorySequenceDelayBeforeLevelLoad)
+            {
+                victorySequenceDelayBeforeLevelLoad = float.MaxValue;
+                SceneManager.LoadScene(levelToLoad);
+            }
+
+            yield return null;
         }
     }
 }
