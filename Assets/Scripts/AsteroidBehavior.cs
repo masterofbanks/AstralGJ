@@ -25,6 +25,7 @@ public class AsteroidBehavior : Enemy
     private bool _detectedPlayer = false;
     private bool _hitSomething;
     private float _timeAlive = 0f;
+    private bool dead = false;
     //components
     private Rigidbody2D _rb2D;
     private Transform _target;
@@ -43,7 +44,8 @@ public class AsteroidBehavior : Enemy
     void Start()
     {
         _rb2D.angularVelocity = RotationSpeed;
-        _target = GameManager.Instance.Player.GetComponent<Transform>();
+        if(!GameManager.Instance.dead)
+            _target = GameManager.Instance.Player.GetComponent<Transform>();
 
     }
 
@@ -53,7 +55,7 @@ public class AsteroidBehavior : Enemy
         Collider2D hit = Physics2D.OverlapCircle(transform.position, DetectionRadius, PlayerLayer);
         _detectedPlayer = hit != null;
 
-        if (_detectedPlayer)
+        if (_detectedPlayer && _target != null)
         {
             DirectionOfTravel = ((Vector2)_target.position - _rb2D.position).normalized;
             _timeAlive = 0;
@@ -88,15 +90,30 @@ public class AsteroidBehavior : Enemy
 
     public override IEnumerator DeathRoutine()
     {
-        if(_spriteRenderer.isVisible)
-            Instantiate(ExplosionSFX, transform.position, Quaternion.identity);
-        _rb2D.linearVelocity = Vector2.zero;
-        _rb2D.angularVelocity = 0f;
-        _hitSomething = true;
-        anime.SetBool("Destroyed", _hitSomething);
-        _boxColl.enabled = false;
-        yield return new WaitForSeconds(0.35f);
-        Destroy(gameObject);
+        if (!dead)
+        {
+            dead = true;
+            if (_spriteRenderer.isVisible)
+                Instantiate(ExplosionSFX, transform.position, Quaternion.identity);
+            _rb2D.linearVelocity = Vector2.zero;
+            _rb2D.angularVelocity = 0f;
+            _hitSomething = true;
+            anime.SetBool("Destroyed", _hitSomething);
+            _boxColl.enabled = false;
+            yield return new WaitForSeconds(0.35f);
+            Destroy(gameObject);
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerHitbox"))
+        {
+            AGJ_CharacterController playerScript = collision.gameObject.GetComponentInParent<AGJ_CharacterController>();
+            playerScript.PlayerDeathRoutine();
+            GameManager.Instance.MakePlayerDead();
+        }
     }
 
 }

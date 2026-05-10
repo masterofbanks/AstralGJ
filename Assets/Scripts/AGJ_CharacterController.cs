@@ -48,6 +48,9 @@ public class AGJ_CharacterController : MonoBehaviour
 
     [Header("Parry Mechanics")]
     [SerializeField] private float ParryForce = 15f;
+    [SerializeField] private GameObject Hitbox;
+    [SerializeField] private LayerMask PlayerLayer;
+    private HitboxBehavior hitboxBehaviorScript;
 
 
     void Start()
@@ -61,6 +64,8 @@ public class AGJ_CharacterController : MonoBehaviour
         Debug.Assert(sprite, $"{nameof(AGJ_CharacterController)} needs a reference to its sprite, which should be a child.");
 
         environmentalInteractionHandlers.Add(new EIH_OrbitHandler());
+        GameObject hitbox = Instantiate(Hitbox, transform.position, Quaternion.identity, transform);
+        hitboxBehaviorScript = hitbox.GetComponent<HitboxBehavior>();
     }
 
     private void Update()
@@ -123,6 +128,7 @@ public class AGJ_CharacterController : MonoBehaviour
         }
         
         sprite.Rotate(0, 0, vehicleRotationSpeed * Time.deltaTime);
+        hitboxBehaviorScript.UpdatePosition(rb2D.position);
     }
 
     private void FixedUpdate()
@@ -139,7 +145,7 @@ public class AGJ_CharacterController : MonoBehaviour
         //a Chain of Responsibility that determines how to react to different pieces
         //of the environment.
         RaycastHit2D hit;
-        hit = Physics2D.Raycast(transform.position, direction, raycastDistance);
+        hit = Physics2D.Raycast(transform.position, direction, raycastDistance, PlayerLayer);
         if(hit.collider != null)
         {
             //Which link in the chain can handle this?
@@ -222,5 +228,12 @@ public class AGJ_CharacterController : MonoBehaviour
     private void ApplyCollisionForce(Vector2 direction)
     {
         rb2D.AddForce(direction * ParryForce, ForceMode2D.Impulse);
+    }
+
+
+    public void PlayerDeathRoutine()
+    {
+        AGJ_Camera.Instance.StopFollowing();
+        Destroy(gameObject);
     }
 }

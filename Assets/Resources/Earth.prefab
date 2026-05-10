@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6352011095538923838}
   - component: {fileID: 3620776163285788942}
   - component: {fileID: 4964285386357427108}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 2720433762068824902}
   - component: {fileID: 5501768802676074803}
   - component: {fileID: 3303263377218942917}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Circle (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

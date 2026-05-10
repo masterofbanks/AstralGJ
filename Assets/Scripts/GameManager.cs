@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Player Information")]
     public Transform Player;
+    public bool dead { get; private set; }
+
 
 
     /// <summary>
@@ -78,6 +80,11 @@ public class GameManager : MonoBehaviour
         newDrunkValue = end;
         DrunkManager.Instance.SetDrunkness(newDrunkValue);
         CurrentDrunkLevel = newDrunkValue;
+    }
+
+    public void MakePlayerDead()
+    {
+        dead = true;
     }
 
     

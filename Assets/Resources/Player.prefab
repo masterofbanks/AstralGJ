@@ -220,6 +220,8 @@ MonoBehaviour:
   orbitSpeedGrowth: 0.5
   orbitLaunchSpeedMult: 0.55
   previousMagnitude: 0
+  ParryForce: 15
+  Hitbox: {fileID: 2510020338513000558, guid: 20a7295e43cff93478d13b0a7a828f6d, type: 3}
 --- !u!50 &2053937990006752007
 Rigidbody2D:
   serializedVersion: 5
