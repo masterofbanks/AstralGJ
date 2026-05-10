@@ -14630,17 +14630,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 534296061}
+    - target: {fileID: 5160043338614904619, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
+      propertyPath: reorientationSpeedDivisor
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 5676703935441653670, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.4
+      value: 5.44
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2599964
+      value: -2.95
       objectReference: {fileID: 0}
     - target: {fileID: 7273460145803884096, guid: 260b84c728ff7f944b6e662a1c7701b9, type: 3}
       propertyPath: m_LocalPosition.z

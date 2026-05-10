@@ -7,6 +7,7 @@ public class AGJ_Camera : MonoBehaviour
 
     [SerializeField] private AGJ_CharacterController player;
     [SerializeField] private float reorientationSpeed;
+    [SerializeField] private float reorientationSpeedDivisor = 50f;
     [SerializeField] private Quaternion rotation;
 
     [SerializeField] private Quaternion beforeRotation = Quaternion.identity;
@@ -69,7 +70,7 @@ public class AGJ_Camera : MonoBehaviour
         localPosition = transform.position - player.transform.position;
         localPosition_AfterOrbit = localPosition;
 
-        reorientationSpeed = player.SpeedCap / 50f;
+        reorientationSpeed = player.SpeedCap / reorientationSpeedDivisor;
 
         reorientationRoutine = StartCoroutine(ReorientCamera());
     }
@@ -81,7 +82,7 @@ public class AGJ_Camera : MonoBehaviour
         {
             //Move the camera more smoothly until it reaches the correct local position
             //Shrink the temp offset until it becomes Vector3.zero
-            localPosition = Vector3.Lerp(localPosition_AfterOrbit, localPosition_Original, t);
+            localPosition = Vector3.Lerp(localPosition_AfterOrbit, GetLocalPositionRelativeToRightVector(), t);
 
             //Rotate the camera until its forward vector aligns with the player's direction
             rotation = Quaternion.Lerp(beforeRotation, player.transform.localRotation, t);
@@ -90,5 +91,12 @@ public class AGJ_Camera : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+    }
+
+    private Vector3 GetLocalPositionRelativeToRightVector()
+    {
+        Vector3 localPosition = player.transform.right * localPosition_Original.magnitude;
+        localPosition.z = -10;
+        return localPosition;
     }
 }
