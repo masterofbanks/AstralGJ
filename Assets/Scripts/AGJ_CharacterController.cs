@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using static UnityEngine.GraphicsBuffer;
 
 public enum MovementBehavior 
@@ -120,6 +121,11 @@ public class AGJ_CharacterController : MonoBehaviour
         {
             vehicleRotationSpeed -= vehicleRotationAcceleration * Time.deltaTime;
             didRotate = true;
+        }
+
+        if (Keyboard.current.rKey.isPressed)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         if (!didRotate)
