@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9177958358105468166}
   - component: {fileID: 6005117200985821155}
   - component: {fileID: 1571264959092953733}
-  - component: {fileID: 2757786631379649896}
+  - component: {fileID: 4167034104763072429}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Enemy
@@ -123,7 +123,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 3, y: 3}
-    newSize: {x: 0.96, y: 0.96}
+    newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -132,7 +132,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!212 &1571264959092953733
 SpriteRenderer:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -177,19 +177,20 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4019285326129596977, guid: d96ba3cd080909f42b6f7f06b9955c18, type: 3}
+  m_Sprite: {fileID: 4019285326129596977, guid: 7e3b902463bfce7498909271b6ae4beb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 0.96}
+  m_Size: {x: 3, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &2757786631379649896
+  m_BlendShapeWeights: []
+--- !u!95 &4167034104763072429
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -199,7 +200,7 @@ Animator:
   m_GameObject: {fileID: 8917542182161533312}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 68b4f773a51901c4888778605cbe4156, type: 2}
+  m_Controller: {fileID: 9100000, guid: eb4a6621efb53fd448901d8281d3a1a1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

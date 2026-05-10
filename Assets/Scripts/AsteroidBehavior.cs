@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public Vector2 DirectionOfTravel;
+    public abstract IEnumerator DeathRoutine();
 }
 
 
@@ -29,12 +30,13 @@ public class AsteroidBehavior : Enemy
     private Transform _target;
     private BoxCollider2D _boxColl;
     private Animator anime;
-
+    private SpriteRenderer _spriteRenderer;
     private void Awake()
     {
         _rb2D = GetComponent<Rigidbody2D>(); 
         anime = GetComponent<Animator>();
         _boxColl = GetComponent<BoxCollider2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();   
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -82,17 +84,12 @@ public class AsteroidBehavior : Enemy
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            StartCoroutine(DeathRoutine());
-        }
-    }
+    
 
-    private IEnumerator DeathRoutine()
+    public override IEnumerator DeathRoutine()
     {
-        Instantiate(ExplosionSFX, transform.position, Quaternion.identity);
+        if(_spriteRenderer.isVisible)
+            Instantiate(ExplosionSFX, transform.position, Quaternion.identity);
         _rb2D.linearVelocity = Vector2.zero;
         _rb2D.angularVelocity = 0f;
         _hitSomething = true;

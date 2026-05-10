@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.GraphicsBuffer;
@@ -44,6 +45,9 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private float orbitSpeedGrowth = 1f;
     [SerializeField] private float orbitLaunchSpeedMult = .75f;
     [SerializeField] private float previousMagnitude;
+
+    [Header("Parry Mechanics")]
+    [SerializeField] private float ParryForce = 15f;
 
 
     void Start()
@@ -195,5 +199,28 @@ public class AGJ_CharacterController : MonoBehaviour
         rb2D.linearVelocity = direction.normalized * speedCap * orbitLaunchSpeedMult;
 
         AGJ_Camera.Instance.StartFollowing();
+    }
+
+    
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Enemy enemyScript = collision.gameObject.GetComponent<Enemy>();
+            if (enemyScript != null)
+            {
+                StartCoroutine(enemyScript.DeathRoutine());
+            }
+
+            Vector2 directionOfParryForce = rb2D.position - collision.contacts[0].point;
+            ApplyCollisionForce(directionOfParryForce.normalized);
+        }
+    }
+
+    private void ApplyCollisionForce(Vector2 direction)
+    {
+        rb2D.AddForce(direction * ParryForce, ForceMode2D.Impulse);
     }
 }
