@@ -10,7 +10,7 @@ public enum MovementBehavior
     Orbiting
 }
 
-public class AGJ_CharacterController : MonoBehaviour
+public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
 {
     [SerializeField] private float speedCap;
     public float SpeedCap { get { return speedCap; } }
@@ -83,6 +83,8 @@ public class AGJ_CharacterController : MonoBehaviour
         environmentalInteractionHandlers.Add(new EIH_OrbitHandler());
         GameObject hitbox = Instantiate(Hitbox, transform.position, Quaternion.identity, transform);
         hitboxBehaviorScript = hitbox.GetComponent<HitboxBehavior>();
+
+        hitboxBehaviorScript.AddWineCollisionListener(this);
     }
 
     private void Update()
@@ -150,7 +152,7 @@ public class AGJ_CharacterController : MonoBehaviour
             default: NormalMovementBehavior(); break;
         }
 
-        //Raycasting to figure out what's in front of us.
+        //Overlapping a specific collider attached to the player to figure out what's in front of us.
         //I want to make this movement system easy to extend, so I'll make use of
         //a Chain of Responsibility that determines how to react to different pieces
         //of the environment.
@@ -196,9 +198,7 @@ public class AGJ_CharacterController : MonoBehaviour
     {
         if (target == previousOrbitTarget) return;
 
-        speedCap += speedCapGrowth;
-        acceleration += accelerationGrowth;
-        orbitSpeed += orbitSpeedGrowth;
+        AugmentSpeed();
 
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
@@ -255,5 +255,17 @@ public class AGJ_CharacterController : MonoBehaviour
         TopReign.SetPosition(1, TopRight.position);
         BottomReign.SetPosition(0, BottomLeft.position);
         BottomReign.SetPosition(1, BottomRight.position);
+    }
+
+    public void RunOnWineCollected()
+    {
+        AugmentSpeed();
+    }
+
+    private void AugmentSpeed()
+    {
+        speedCap += speedCapGrowth;
+        acceleration += accelerationGrowth;
+        orbitSpeed += orbitSpeedGrowth;
     }
 }
