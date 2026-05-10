@@ -69,6 +69,8 @@ public class AGJ_Camera : MonoBehaviour
         localPosition = transform.position - player.transform.position;
         localPosition_AfterOrbit = localPosition;
 
+        reorientationSpeed = player.SpeedCap / 50f;
+
         reorientationRoutine = StartCoroutine(ReorientCamera());
     }
     private IEnumerator ReorientCamera()

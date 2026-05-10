@@ -12,10 +12,18 @@ public enum MovementBehavior
 public class AGJ_CharacterController : MonoBehaviour
 {
     [SerializeField] private float speedCap;
+    public float SpeedCap { get { return speedCap; } }
+
+    [SerializeField] private float speedCapGrowth;
+    [Space(10)]
+    
+    [SerializeField] private float acceleration;
+    [SerializeField] private float accelerationGrowth;
+    [Space(10)]
+    
     [SerializeField] private float raycastDistance = 2f;
     [SerializeField] private Rigidbody2D rb2D;
     [SerializeField] private Vector2 direction;
-    [SerializeField] private float acceleration;
     [SerializeField] private Vector2 steerForce;
     [SerializeField] private float steerStrength;
     [SerializeField] private float vehicleRotationSpeed = 5f;
@@ -32,7 +40,9 @@ public class AGJ_CharacterController : MonoBehaviour
     [Space(15)]
     [SerializeField] private Transform orbitTarget = null;
     [SerializeField] private Transform previousOrbitTarget = null;
-    [SerializeField] private float orbitSpeed = 10f;
+    [SerializeField] private float orbitSpeed = 4f;
+    [SerializeField] private float orbitSpeedGrowth = 1f;
+    [SerializeField] private float orbitLaunchSpeedMult = .75f;
     [SerializeField] private float previousMagnitude;
 
 
@@ -165,6 +175,10 @@ public class AGJ_CharacterController : MonoBehaviour
     {
         if (target == previousOrbitTarget) return;
 
+        speedCap += speedCapGrowth;
+        acceleration += accelerationGrowth;
+        orbitSpeed += orbitSpeedGrowth;
+
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
         previousOrbitTarget = orbitTarget;
@@ -178,7 +192,7 @@ public class AGJ_CharacterController : MonoBehaviour
     public void ActivateNormalMovement()
     {
         movementBehavior = MovementBehavior.Normal;
-        rb2D.linearVelocity = direction * orbitSpeed;
+        rb2D.linearVelocity = direction.normalized * speedCap * orbitLaunchSpeedMult;
 
         AGJ_Camera.Instance.StartFollowing();
     }
