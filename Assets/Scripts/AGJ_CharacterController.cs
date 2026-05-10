@@ -54,6 +54,16 @@ public class AGJ_CharacterController : MonoBehaviour
     [SerializeField] private LayerMask OrbitLayer;
     private HitboxBehavior hitboxBehaviorScript;
 
+    [Header("Reign Stuff")]
+    [SerializeField] private LineRenderer TopReign;
+    [SerializeField] private Transform TopRight;
+    [SerializeField] private Transform TopLeft;
+    [Space(10)]
+    [SerializeField] private LineRenderer BottomReign;
+    [SerializeField] private Transform BottomRight;
+    [SerializeField] private Transform BottomLeft;
+
+
     
     [Space(20)]
     [SerializeField] private Collider2D environmentalDetector;
@@ -128,6 +138,7 @@ public class AGJ_CharacterController : MonoBehaviour
         
         sprite.Rotate(0, 0, vehicleRotationSpeed * Time.deltaTime);
         hitboxBehaviorScript.UpdatePosition(rb2D.position);
+        UpdateReignPosition();
     }
 
     private void FixedUpdate()
@@ -236,5 +247,13 @@ public class AGJ_CharacterController : MonoBehaviour
         AGJ_Camera.Instance.StopFollowing();
         Instantiate(ExplosionVFX, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    private void UpdateReignPosition()
+    {
+        TopReign.SetPosition(0, TopLeft.position);
+        TopReign.SetPosition(1, TopRight.position);
+        BottomReign.SetPosition(0, BottomLeft.position);
+        BottomReign.SetPosition(1, BottomRight.position);
     }
 }

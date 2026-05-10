@@ -1,0 +1,3722 @@
+fileFormatVersion: 2
+guid: 0b52d08849f1082418165f6dc3977069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2710352635239251875
+    second: whiteHorseSpriteSheet_0
+  - first:
+      213: 7805588479338488630
+    second: whiteHorseSpriteSheet_1
+  - first:
+      213: 5376381032597476146
+    second: whiteHorseSpriteSheet_2
+  - first:
+      213: -7161885149328426615
+    second: whiteHorseSpriteSheet_3
+  - first:
+      213: -2706652568977671125
+    second: whiteHorseSpriteSheet_4
+  - first:
+      213: 1789972692857460677
+    second: whiteHorseSpriteSheet_5
+  - first:
+      213: -6090927754181443000
+    second: whiteHorseSpriteSheet_6
+  - first:
+      213: -4994796817877976623
+    second: whiteHorseSpriteSheet_7
+  - first:
+      213: 5865700493701320843
+    second: whiteHorseSpriteSheet_8
+  - first:
+      213: -6513969275309794559
+    second: whiteHorseSpriteSheet_9
+  - first:
+      213: 8596710718419471404
+    second: whiteHorseSpriteSheet_10
+  - first:
+      213: 2702392094114710692
+    second: whiteHorseSpriteSheet_11
+  - first:
+      213: 7655475254424499279
+    second: whiteHorseSpriteSheet_12
+  - first:
+      213: 2180247536758706819
+    second: whiteHorseSpriteSheet_13
+  - first:
+      213: -885353596245439720
+    second: whiteHorseSpriteSheet_14
+  - first:
+      213: -2108586936081145318
+    second: whiteHorseSpriteSheet_15
+  - first:
+      213: 3789990065216196570
+    second: whiteHorseSpriteSheet_16
+  - first:
+      213: -3766285484349505883
+    second: whiteHorseSpriteSheet_17
+  - first:
+      213: 4864556457640234579
+    second: whiteHorseSpriteSheet_18
+  - first:
+      213: -6833561787831666581
+    second: whiteHorseSpriteSheet_19
+  - first:
+      213: -4881745556413325588
+    second: whiteHorseSpriteSheet_20
+  - first:
+      213: -6094964937403819524
+    second: whiteHorseSpriteSheet_21
+  - first:
+      213: -2103325355390211496
+    second: whiteHorseSpriteSheet_22
+  - first:
+      213: -7724057581073678087
+    second: whiteHorseSpriteSheet_23
+  - first:
+      213: -2825444839039001037
+    second: whiteHorseSpriteSheet_24
+  - first:
+      213: -6067766931417696704
+    second: whiteHorseSpriteSheet_25
+  - first:
+      213: -3500452070321778109
+    second: whiteHorseSpriteSheet_26
+  - first:
+      213: 891440027637488866
+    second: whiteHorseSpriteSheet_27
+  - first:
+      213: -3703558092992603190
+    second: whiteHorseSpriteSheet_28
+  - first:
+      213: 9004885304297407929
+    second: whiteHorseSpriteSheet_29
+  - first:
+      213: 2042197294300226664
+    second: whiteHorseSpriteSheet_30
+  - first:
+      213: -2997942075506103675
+    second: whiteHorseSpriteSheet_31
+  - first:
+      213: -2254820190380563476
+    second: whiteHorseSpriteSheet_32
+  - first:
+      213: -7281412187527497521
+    second: whiteHorseSpriteSheet_33
+  - first:
+      213: -6473452673952993212
+    second: whiteHorseSpriteSheet_34
+  - first:
+      213: -1119784758042344632
+    second: whiteHorseSpriteSheet_35
+  - first:
+      213: -3502769281910803190
+    second: whiteHorseSpriteSheet_36
+  - first:
+      213: 3705876298694064753
+    second: whiteHorseSpriteSheet_37
+  - first:
+      213: 3479117738621137311
+    second: whiteHorseSpriteSheet_38
+  - first:
+      213: -5471494815023224171
+    second: whiteHorseSpriteSheet_39
+  - first:
+      213: -7168678701940260857
+    second: whiteHorseSpriteSheet_40
+  - first:
+      213: 5601557138129417073
+    second: whiteHorseSpriteSheet_41
+  - first:
+      213: 3537084061227424645
+    second: whiteHorseSpriteSheet_42
+  - first:
+      213: -1962108402271516064
+    second: whiteHorseSpriteSheet_43
+  - first:
+      213: 8680263851823950763
+    second: whiteHorseSpriteSheet_44
+  - first:
+      213: 7576939776855154842
+    second: whiteHorseSpriteSheet_45
+  - first:
+      213: 6230329719919526026
+    second: whiteHorseSpriteSheet_46
+  - first:
+      213: -7657593904261261589
+    second: whiteHorseSpriteSheet_47
+  - first:
+      213: 5247640981606748706
+    second: whiteHorseSpriteSheet_48
+  - first:
+      213: -5716135823268588436
+    second: whiteHorseSpriteSheet_49
+  - first:
+      213: 2849528216433717779
+    second: whiteHorseSpriteSheet_50
+  - first:
+      213: 5773619695835350844
+    second: whiteHorseSpriteSheet_51
+  - first:
+      213: 928553641825051302
+    second: whiteHorseSpriteSheet_52
+  - first:
+      213: 8215186643082136280
+    second: whiteHorseSpriteSheet_53
+  - first:
+      213: 4273362469767984000
+    second: whiteHorseSpriteSheet_54
+  - first:
+      213: -5831158724950412450
+    second: whiteHorseSpriteSheet_55
+  - first:
+      213: -996455993658557185
+    second: whiteHorseSpriteSheet_56
+  - first:
+      213: -5858601782663134251
+    second: whiteHorseSpriteSheet_57
+  - first:
+      213: -3066333002380484898
+    second: whiteHorseSpriteSheet_58
+  - first:
+      213: 7431285473281016844
+    second: whiteHorseSpriteSheet_59
+  - first:
+      213: 8994487153014166573
+    second: whiteHorseSpriteSheet_60
+  - first:
+      213: 5753468597662382572
+    second: whiteHorseSpriteSheet_61
+  - first:
+      213: -8672704945816188336
+    second: whiteHorseSpriteSheet_62
+  - first:
+      213: -1671041999707795277
+    second: whiteHorseSpriteSheet_63
+  - first:
+      213: 1911360184007931023
+    second: whiteHorseSpriteSheet_64
+  - first:
+      213: -267763553416686864
+    second: whiteHorseSpriteSheet_65
+  - first:
+      213: 6234626450366587279
+    second: whiteHorseSpriteSheet_66
+  - first:
+      213: 7522131793912025666
+    second: whiteHorseSpriteSheet_67
+  - first:
+      213: -4285255854308061622
+    second: whiteHorseSpriteSheet_68
+  - first:
+      213: -4842469356717141505
+    second: whiteHorseSpriteSheet_69
+  - first:
+      213: 8211235191601214919
+    second: whiteHorseSpriteSheet_70
+  - first:
+      213: 2574244663055379002
+    second: whiteHorseSpriteSheet_71
+  - first:
+      213: 6994901690891237887
+    second: whiteHorseSpriteSheet_72
+  - first:
+      213: 1410923895066370625
+    second: whiteHorseSpriteSheet_73
+  - first:
+      213: 7658332721309745259
+    second: whiteHorseSpriteSheet_74
+  - first:
+      213: 3971151029744817492
+    second: whiteHorseSpriteSheet_75
+  - first:
+      213: -4202833570986867410
+    second: whiteHorseSpriteSheet_76
+  - first:
+      213: -4624420768536595971
+    second: whiteHorseSpriteSheet_77
+  - first:
+      213: 586972949639233479
+    second: whiteHorseSpriteSheet_78
+  - first:
+      213: 8073863988080258005
+    second: whiteHorseSpriteSheet_79
+  - first:
+      213: -7912905712808098356
+    second: whiteHorseSpriteSheet_80
+  - first:
+      213: 981462837688064045
+    second: whiteHorseSpriteSheet_81
+  - first:
+      213: -7736718774476199791
+    second: whiteHorseSpriteSheet_82
+  - first:
+      213: 4962422936786289552
+    second: whiteHorseSpriteSheet_83
+  - first:
+      213: 2893799313323920585
+    second: whiteHorseSpriteSheet_84
+  - first:
+      213: -9143762898542901543
+    second: whiteHorseSpriteSheet_85
+  - first:
+      213: -1483452160177733514
+    second: whiteHorseSpriteSheet_86
+  - first:
+      213: 6688575549726938034
+    second: whiteHorseSpriteSheet_87
+  - first:
+      213: 5930494935553232539
+    second: whiteHorseSpriteSheet_88
+  - first:
+      213: -3830879183819323957
+    second: whiteHorseSpriteSheet_89
+  - first:
+      213: 7601632237013185671
+    second: whiteHorseSpriteSheet_90
+  - first:
+      213: -5889569822783207906
+    second: whiteHorseSpriteSheet_91
+  - first:
+      213: -7429734192461436173
+    second: whiteHorseSpriteSheet_92
+  - first:
+      213: -56901141429908732
+    second: whiteHorseSpriteSheet_93
+  - first:
+      213: 1079650021281666562
+    second: whiteHorseSpriteSheet_94
+  - first:
+      213: 3367132785786186070
+    second: whiteHorseSpriteSheet_95
+  - first:
+      213: 9061965861396921158
+    second: whiteHorseSpriteSheet_96
+  - first:
+      213: 6354238814906369837
+    second: whiteHorseSpriteSheet_97
+  - first:
+      213: 5074616511606823053
+    second: whiteHorseSpriteSheet_98
+  - first:
+      213: -3339778422984176004
+    second: whiteHorseSpriteSheet_99
+  - first:
+      213: 5434517698564121993
+    second: whiteHorseSpriteSheet_100
+  - first:
+      213: 7856170717885095653
+    second: whiteHorseSpriteSheet_101
+  - first:
+      213: 2069705741595267632
+    second: whiteHorseSpriteSheet_102
+  - first:
+      213: -2124276648047847848
+    second: whiteHorseSpriteSheet_103
+  - first:
+      213: -6325638269756648704
+    second: whiteHorseSpriteSheet_104
+  - first:
+      213: -8627129706124888989
+    second: whiteHorseSpriteSheet_105
+  - first:
+      213: 8569065172043189339
+    second: whiteHorseSpriteSheet_106
+  - first:
+      213: 5910875592598983077
+    second: whiteHorseSpriteSheet_107
+  - first:
+      213: 697788281695245258
+    second: whiteHorseSpriteSheet_108
+  - first:
+      213: -2864618857921406293
+    second: whiteHorseSpriteSheet_109
+  - first:
+      213: 8747170941381750298
+    second: whiteHorseSpriteSheet_110
+  - first:
+      213: 3674972373698115094
+    second: whiteHorseSpriteSheet_111
+  - first:
+      213: -6102871064999627772
+    second: whiteHorseSpriteSheet_112
+  - first:
+      213: 5293449297903572579
+    second: whiteHorseSpriteSheet_113
+  - first:
+      213: -8618176132582394923
+    second: whiteHorseSpriteSheet_114
+  - first:
+      213: -7090773549846801754
+    second: whiteHorseSpriteSheet_115
+  - first:
+      213: -9150190902923691975
+    second: whiteHorseSpriteSheet_116
+  - first:
+      213: -2142710258128196645
+    second: whiteHorseSpriteSheet_117
+  - first:
+      213: 5238355823405935502
+    second: whiteHorseSpriteSheet_118
+  - first:
+      213: 6355417772536704150
+    second: whiteHorseSpriteSheet_119
+  - first:
+      213: 7214707029267843153
+    second: whiteHorseSpriteSheet_120
+  - first:
+      213: 3382825607068172335
+    second: whiteHorseSpriteSheet_121
+  - first:
+      213: 2797547985517035737
+    second: whiteHorseSpriteSheet_122
+  - first:
+      213: 7546438933244106902
+    second: whiteHorseSpriteSheet_123
+  - first:
+      213: -5337791458039241133
+    second: whiteHorseSpriteSheet_124
+  - first:
+      213: -6639153197564160170
+    second: whiteHorseSpriteSheet_125
+  - first:
+      213: 3881490848803724311
+    second: whiteHorseSpriteSheet_126
+  - first:
+      213: -3424442035895034976
+    second: whiteHorseSpriteSheet_127
+  - first:
+      213: -1959134056756304115
+    second: whiteHorseSpriteSheet_128
+  - first:
+      213: -6754154549305883695
+    second: whiteHorseSpriteSheet_129
+  - first:
+      213: -5684278321931578644
+    second: whiteHorseSpriteSheet_130
+  - first:
+      213: -3196730310387182093
+    second: whiteHorseSpriteSheet_131
+  - first:
+      213: -2851429462888958583
+    second: whiteHorseSpriteSheet_132
+  - first:
+      213: 4892820751636459193
+    second: whiteHorseSpriteSheet_133
+  - first:
+      213: 5546133215496224471
+    second: whiteHorseSpriteSheet_134
+  - first:
+      213: -6429609605669764505
+    second: whiteHorseSpriteSheet_135
+  - first:
+      213: -6515639742618766898
+    second: whiteHorseSpriteSheet_136
+  - first:
+      213: -6886733800529887637
+    second: whiteHorseSpriteSheet_137
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50458863a4e26ad0800000000000000
+      internalID: -2710352635239251875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1104
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6332addbd55035c60800000000000000
+      internalID: 7805588479338488630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1104
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233de19501ebc9a40800000000000000
+      internalID: 5376381032597476146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9893228e66fdb9c90800000000000000
+      internalID: -7161885149328426615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1056
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cffa734d9007ad0800000000000000
+      internalID: -2706652568977671125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1056
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c71b633ea247d810800000000000000
+      internalID: 1789972692857460677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842827b8a7da87ba0800000000000000
+      internalID: -6090927754181443000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1008
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9b129f1caeeaab0800000000000000
+      internalID: -4994796817877976623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1008
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8096ed6587276150800000000000000
+      internalID: 5865700493701320843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bd953e47bb995a0800000000000000
+      internalID: -6513969275309794559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c8f20e9d6ad4770800000000000000
+      internalID: 8596710718419471404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4088daa43d08520800000000000000
+      internalID: 2702392094114710692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f3c6fe26bd3a60800000000000000
+      internalID: 7655475254424499279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 912
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3825cee459bc14e10800000000000000
+      internalID: 2180247536758706819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 912
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b0d23589796b3f0800000000000000
+      internalID: -885353596245439720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12aad87a5bccb2e0800000000000000
+      internalID: -2108586936081145318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 864
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf887352efb89430800000000000000
+      internalID: 3789990065216196570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 864
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae33ae7e477bbbc0800000000000000
+      internalID: -3766285484349505883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8a7f1350628340800000000000000
+      internalID: 4864556457640234579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 816
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b683c9d72cf4a21a0800000000000000
+      internalID: -6833561787831666581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 816
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5422f74e804cb0800000000000000
+      internalID: -4881745556413325588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf995939ea55a6ba0800000000000000
+      internalID: -6094964937403819524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ae4e0bbbc7fc2e0800000000000000
+      internalID: -2103325355390211496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0c077cd82aec490800000000000000
+      internalID: -7724057581073678087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e9e9483e00ac8d0800000000000000
+      internalID: -2825444839039001037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0467cf0df16facba0800000000000000
+      internalID: -6067766931417696704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34290336365eb6fc0800000000000000
+      internalID: -3500452070321778109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec95e96bf70f5c00800000000000000
+      internalID: 891440027637488866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb172669815a9cc0800000000000000
+      internalID: -3703558092992603190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b548cd6977c7fc70800000000000000
+      internalID: 9004885304297407929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86467008e97575c10800000000000000
+      internalID: 2042197294300226664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 720
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ae24ce09b2566d0800000000000000
+      internalID: -2997942075506103675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3ecffbbf445b0e0800000000000000
+      internalID: -2254820190380563476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8393ba13a33fa90800000000000000
+      internalID: -7281412187527497521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440bab2471da926a0800000000000000
+      internalID: -6473452673952993212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8434df702b9b570f0800000000000000
+      internalID: -1119784758042344632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a057e8585e9a36fc0800000000000000
+      internalID: -3502769281910803190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17af23debdaed6330800000000000000
+      internalID: 3705876298694064753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91f54e662f484030800000000000000
+      internalID: 3479117738621137311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 672
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a262874785114b0800000000000000
+      internalID: -5471494815023224171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70041fda3bcb38c90800000000000000
+      internalID: -7168678701940260857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173f14fe98abcbd40800000000000000
+      internalID: 5601557138129417073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b1822a63f361130800000000000000
+      internalID: 3537084061227424645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a0cc7cdc035c4e0800000000000000
+      internalID: -1962108402271516064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab61a4bbfd767870800000000000000
+      internalID: 8680263851823950763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90aafb2592b62960800000000000000
+      internalID: 7576939776855154842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80cc5dded3967650800000000000000
+      internalID: 6230329719919526026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 624
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be69f4e6ae2cab590800000000000000
+      internalID: -7657593904261261589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222d3796bad53d840800000000000000
+      internalID: 5247640981606748706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64d03e01c43ca0b0800000000000000
+      internalID: -5716135823268588436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312fbfdb0de8b8720800000000000000
+      internalID: 2849528216433717779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37077ef584002050800000000000000
+      internalID: 5773619695835350844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a0e71e92e2ec00800000000000000
+      internalID: 928553641825051302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dac178d9b4320270800000000000000
+      internalID: 8215186643082136280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b10766880e4b30800000000000000
+      internalID: 4273362469767984000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e533962d800931fa0800000000000000
+      internalID: -5831158724950412450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc3caf9d80eb22f0800000000000000
+      internalID: -996455993658557185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3c4e708b012bea0800000000000000
+      internalID: -5858601782663134251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ededd0661623275d0800000000000000
+      internalID: -3066333002380484898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c048f6be3ca312760800000000000000
+      internalID: 7431285473281016844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24593c2966d2dc70800000000000000
+      internalID: 8994487153014166573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f706d43d68df40800000000000000
+      internalID: 5753468597662382572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a4ade3dcc54a780800000000000000
+      internalID: -8672704945816188336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b098a2a7244fc8e0800000000000000
+      internalID: -1671041999707795277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f843e95e5f3868a10800000000000000
+      internalID: 1911360184007931023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f25dc28776b84cf0800000000000000
+      internalID: -267763553416686864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81ea5169b7d58650800000000000000
+      internalID: 6234626450366587279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2425cc9330bf36860800000000000000
+      internalID: 7522131793912025666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e0e483186b784c0800000000000000
+      internalID: -4285255854308061622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1192dc6c71cccb0800000000000000
+      internalID: -4842469356717141505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5b39ad6ea24f170800000000000000
+      internalID: 8211235191601214919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6c52d1ed89b320800000000000000
+      internalID: 2574244663055379002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9f95cf602e21160800000000000000
+      internalID: 6994901690891237887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142aa82aecb949310800000000000000
+      internalID: 1410923895066370625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b600b61d80dd74a60800000000000000
+      internalID: 7658332721309745259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455dd5d42dc5c1730800000000000000
+      internalID: 3971151029744817492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25cd3f72298ca5c0800000000000000
+      internalID: -4202833570986867410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ff6fefc1c2dfb0800000000000000
+      internalID: -4624420768536595971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf720ca9c8552800800000000000000
+      internalID: 586972949639233479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dba75e15802c0070800000000000000
+      internalID: 8073863988080258005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc50ae6bd26bf2290800000000000000
+      internalID: -7912905712808098356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28d4a8304bde9d00800000000000000
+      internalID: 981462837688064045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1982048f347a1a490800000000000000
+      internalID: -7736718774476199791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093c5647e511ed440800000000000000
+      internalID: 4962422936786289552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc01f9b427d82820800000000000000
+      internalID: 2893799313323920585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d644f9e614da1180800000000000000
+      internalID: -9143762898542901543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6700257be18b96be0800000000000000
+      internalID: -1483452160177733514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b356de560892dc50800000000000000
+      internalID: 6688575549726938034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e47e709b95d4250800000000000000
+      internalID: 5930494935553232539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5c20fddabf5dac0800000000000000
+      internalID: -3830879183819323957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78434509e3c6e7960800000000000000
+      internalID: 7601632237013185671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e168521537b044ea0800000000000000
+      internalID: -5889569822783207906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa23cacd1844e890800000000000000
+      internalID: -7429734192461436173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b81cd96b8d53ff0800000000000000
+      internalID: -56901141429908732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2069c3069ffabfe00800000000000000
+      internalID: 1079650021281666562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6596b58cd657abe20800000000000000
+      internalID: 3367132785786186070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bb74740f192cd70800000000000000
+      internalID: 9061965861396921158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d274e74398ace2850800000000000000
+      internalID: 6354238814906369837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8818a1b4d8ac6640800000000000000
+      internalID: 5074616511606823053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e838d1839b6a1d0800000000000000
+      internalID: -3339778422984176004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985ec74bd094b6b40800000000000000
+      internalID: 5434517698564121993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eedd56e4a9b60d60800000000000000
+      internalID: 7856170717885095653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0325f5df76219bc10800000000000000
+      internalID: 2069705741595267632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856537cb4ad0582e0800000000000000
+      internalID: -2124276648047847848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003d9812281d638a0800000000000000
+      internalID: -6325638269756648704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364b433ad37464880800000000000000
+      internalID: -8627129706124888989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c4ec48f5f6be670800000000000000
+      internalID: 8569065172043189339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a19368c806a70250800000000000000
+      internalID: 5910875592598983077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac310e2ceba0fa900800000000000000
+      internalID: 697788281695245258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa95bc7354de38d0800000000000000
+      internalID: -2864618857921406293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eadae60a1346970800000000000000
+      internalID: 8747170941381750298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61676ad27ef100330800000000000000
+      internalID: 3674972373698115094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404ffacc91f3e4ba0800000000000000
+      internalID: -6102871064999627772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366551e271c167940800000000000000
+      internalID: 5293449297903572579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d33dade776166880800000000000000
+      internalID: -8618176132582394923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a255a26603889d90800000000000000
+      internalID: -7090773549846801754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938f8348addf30180800000000000000
+      internalID: -9150190902923691975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbeeaf6f509342e0800000000000000
+      internalID: -2142710258128196645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ba53d0ed062b840800000000000000
+      internalID: 5238355823405935502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c214baacaf23850800000000000000
+      internalID: 6355417772536704150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158060661d9cf1460800000000000000
+      internalID: 7214707029267843153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c46677f532fe20800000000000000
+      internalID: 3382825607068172335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d04ade1213e2d620800000000000000
+      internalID: 2797547985517035737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698513f1a365ab860800000000000000
+      internalID: 7546438933244106902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356e47223fa5ce5b0800000000000000
+      internalID: -5337791458039241133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6571ac1b75dfcd3a0800000000000000
+      internalID: -6639153197564160170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c10e9ac53ddd530800000000000000
+      internalID: 3881490848803724311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab9f80ac10f970d0800000000000000
+      internalID: -3424442035895034976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07abaf84f1cfc4e0800000000000000
+      internalID: -1959134056756304115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3c882f83c6442a0800000000000000
+      internalID: -6754154549305883695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce290d89bf26d11b0800000000000000
+      internalID: -5684278321931578644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5d5ae38bee2a3d0800000000000000
+      internalID: -3196730310387182093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985bb62d200bd68d0800000000000000
+      internalID: -2851429462888958583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be63f2ec8ac6e340800000000000000
+      internalID: 4892820751636459193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb5aa56c2d7fc40800000000000000
+      internalID: 5546133215496224471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7624d91112075c6a0800000000000000
+      internalID: -6429609605669764505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec17ac8ec2cc395a0800000000000000
+      internalID: -6515639742618766898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whiteHorseSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e7dbc88186d60a0800000000000000
+      internalID: -6886733800529887637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4bc088ee398eb2b43add7a90a3e980db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      whiteHorseSpriteSheet_0: -2710352635239251875
+      whiteHorseSpriteSheet_1: 7805588479338488630
+      whiteHorseSpriteSheet_10: 8596710718419471404
+      whiteHorseSpriteSheet_100: 5434517698564121993
+      whiteHorseSpriteSheet_101: 7856170717885095653
+      whiteHorseSpriteSheet_102: 2069705741595267632
+      whiteHorseSpriteSheet_103: -2124276648047847848
+      whiteHorseSpriteSheet_104: -6325638269756648704
+      whiteHorseSpriteSheet_105: -8627129706124888989
+      whiteHorseSpriteSheet_106: 8569065172043189339
+      whiteHorseSpriteSheet_107: 5910875592598983077
+      whiteHorseSpriteSheet_108: 697788281695245258
+      whiteHorseSpriteSheet_109: -2864618857921406293
+      whiteHorseSpriteSheet_11: 2702392094114710692
+      whiteHorseSpriteSheet_110: 8747170941381750298
+      whiteHorseSpriteSheet_111: 3674972373698115094
+      whiteHorseSpriteSheet_112: -6102871064999627772
+      whiteHorseSpriteSheet_113: 5293449297903572579
+      whiteHorseSpriteSheet_114: -8618176132582394923
+      whiteHorseSpriteSheet_115: -7090773549846801754
+      whiteHorseSpriteSheet_116: -9150190902923691975
+      whiteHorseSpriteSheet_117: -2142710258128196645
+      whiteHorseSpriteSheet_118: 5238355823405935502
+      whiteHorseSpriteSheet_119: 6355417772536704150
+      whiteHorseSpriteSheet_12: 7655475254424499279
+      whiteHorseSpriteSheet_120: 7214707029267843153
+      whiteHorseSpriteSheet_121: 3382825607068172335
+      whiteHorseSpriteSheet_122: 2797547985517035737
+      whiteHorseSpriteSheet_123: 7546438933244106902
+      whiteHorseSpriteSheet_124: -5337791458039241133
+      whiteHorseSpriteSheet_125: -6639153197564160170
+      whiteHorseSpriteSheet_126: 3881490848803724311
+      whiteHorseSpriteSheet_127: -3424442035895034976
+      whiteHorseSpriteSheet_128: -1959134056756304115
+      whiteHorseSpriteSheet_129: -6754154549305883695
+      whiteHorseSpriteSheet_13: 2180247536758706819
+      whiteHorseSpriteSheet_130: -5684278321931578644
+      whiteHorseSpriteSheet_131: -3196730310387182093
+      whiteHorseSpriteSheet_132: -2851429462888958583
+      whiteHorseSpriteSheet_133: 4892820751636459193
+      whiteHorseSpriteSheet_134: 5546133215496224471
+      whiteHorseSpriteSheet_135: -6429609605669764505
+      whiteHorseSpriteSheet_136: -6515639742618766898
+      whiteHorseSpriteSheet_137: -6886733800529887637
+      whiteHorseSpriteSheet_14: -885353596245439720
+      whiteHorseSpriteSheet_15: -2108586936081145318
+      whiteHorseSpriteSheet_16: 3789990065216196570
+      whiteHorseSpriteSheet_17: -3766285484349505883
+      whiteHorseSpriteSheet_18: 4864556457640234579
+      whiteHorseSpriteSheet_19: -6833561787831666581
+      whiteHorseSpriteSheet_2: 5376381032597476146
+      whiteHorseSpriteSheet_20: -4881745556413325588
+      whiteHorseSpriteSheet_21: -6094964937403819524
+      whiteHorseSpriteSheet_22: -2103325355390211496
+      whiteHorseSpriteSheet_23: -7724057581073678087
+      whiteHorseSpriteSheet_24: -2825444839039001037
+      whiteHorseSpriteSheet_25: -6067766931417696704
+      whiteHorseSpriteSheet_26: -3500452070321778109
+      whiteHorseSpriteSheet_27: 891440027637488866
+      whiteHorseSpriteSheet_28: -3703558092992603190
+      whiteHorseSpriteSheet_29: 9004885304297407929
+      whiteHorseSpriteSheet_3: -7161885149328426615
+      whiteHorseSpriteSheet_30: 2042197294300226664
+      whiteHorseSpriteSheet_31: -2997942075506103675
+      whiteHorseSpriteSheet_32: -2254820190380563476
+      whiteHorseSpriteSheet_33: -7281412187527497521
+      whiteHorseSpriteSheet_34: -6473452673952993212
+      whiteHorseSpriteSheet_35: -1119784758042344632
+      whiteHorseSpriteSheet_36: -3502769281910803190
+      whiteHorseSpriteSheet_37: 3705876298694064753
+      whiteHorseSpriteSheet_38: 3479117738621137311
+      whiteHorseSpriteSheet_39: -5471494815023224171
+      whiteHorseSpriteSheet_4: -2706652568977671125
+      whiteHorseSpriteSheet_40: -7168678701940260857
+      whiteHorseSpriteSheet_41: 5601557138129417073
+      whiteHorseSpriteSheet_42: 3537084061227424645
+      whiteHorseSpriteSheet_43: -1962108402271516064
+      whiteHorseSpriteSheet_44: 8680263851823950763
+      whiteHorseSpriteSheet_45: 7576939776855154842
+      whiteHorseSpriteSheet_46: 6230329719919526026
+      whiteHorseSpriteSheet_47: -7657593904261261589
+      whiteHorseSpriteSheet_48: 5247640981606748706
+      whiteHorseSpriteSheet_49: -5716135823268588436
+      whiteHorseSpriteSheet_5: 1789972692857460677
+      whiteHorseSpriteSheet_50: 2849528216433717779
+      whiteHorseSpriteSheet_51: 5773619695835350844
+      whiteHorseSpriteSheet_52: 928553641825051302
+      whiteHorseSpriteSheet_53: 8215186643082136280
+      whiteHorseSpriteSheet_54: 4273362469767984000
+      whiteHorseSpriteSheet_55: -5831158724950412450
+      whiteHorseSpriteSheet_56: -996455993658557185
+      whiteHorseSpriteSheet_57: -5858601782663134251
+      whiteHorseSpriteSheet_58: -3066333002380484898
+      whiteHorseSpriteSheet_59: 7431285473281016844
+      whiteHorseSpriteSheet_6: -6090927754181443000
+      whiteHorseSpriteSheet_60: 8994487153014166573
+      whiteHorseSpriteSheet_61: 5753468597662382572
+      whiteHorseSpriteSheet_62: -8672704945816188336
+      whiteHorseSpriteSheet_63: -1671041999707795277
+      whiteHorseSpriteSheet_64: 1911360184007931023
+      whiteHorseSpriteSheet_65: -267763553416686864
+      whiteHorseSpriteSheet_66: 6234626450366587279
+      whiteHorseSpriteSheet_67: 7522131793912025666
+      whiteHorseSpriteSheet_68: -4285255854308061622
+      whiteHorseSpriteSheet_69: -4842469356717141505
+      whiteHorseSpriteSheet_7: -4994796817877976623
+      whiteHorseSpriteSheet_70: 8211235191601214919
+      whiteHorseSpriteSheet_71: 2574244663055379002
+      whiteHorseSpriteSheet_72: 6994901690891237887
+      whiteHorseSpriteSheet_73: 1410923895066370625
+      whiteHorseSpriteSheet_74: 7658332721309745259
+      whiteHorseSpriteSheet_75: 3971151029744817492
+      whiteHorseSpriteSheet_76: -4202833570986867410
+      whiteHorseSpriteSheet_77: -4624420768536595971
+      whiteHorseSpriteSheet_78: 586972949639233479
+      whiteHorseSpriteSheet_79: 8073863988080258005
+      whiteHorseSpriteSheet_8: 5865700493701320843
+      whiteHorseSpriteSheet_80: -7912905712808098356
+      whiteHorseSpriteSheet_81: 981462837688064045
+      whiteHorseSpriteSheet_82: -7736718774476199791
+      whiteHorseSpriteSheet_83: 4962422936786289552
+      whiteHorseSpriteSheet_84: 2893799313323920585
+      whiteHorseSpriteSheet_85: -9143762898542901543
+      whiteHorseSpriteSheet_86: -1483452160177733514
+      whiteHorseSpriteSheet_87: 6688575549726938034
+      whiteHorseSpriteSheet_88: 5930494935553232539
+      whiteHorseSpriteSheet_89: -3830879183819323957
+      whiteHorseSpriteSheet_9: -6513969275309794559
+      whiteHorseSpriteSheet_90: 7601632237013185671
+      whiteHorseSpriteSheet_91: -5889569822783207906
+      whiteHorseSpriteSheet_92: -7429734192461436173
+      whiteHorseSpriteSheet_93: -56901141429908732
+      whiteHorseSpriteSheet_94: 1079650021281666562
+      whiteHorseSpriteSheet_95: 3367132785786186070
+      whiteHorseSpriteSheet_96: 9061965861396921158
+      whiteHorseSpriteSheet_97: 6354238814906369837
+      whiteHorseSpriteSheet_98: 5074616511606823053
+      whiteHorseSpriteSheet_99: -3339778422984176004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
