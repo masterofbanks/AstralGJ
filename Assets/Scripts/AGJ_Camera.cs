@@ -19,6 +19,7 @@ public class AGJ_Camera : MonoBehaviour
     [SerializeField] private bool following;
 
     private Coroutine reorientationRoutine = null;
+    private Coroutine centeringRoutine = null;
 
     private void Awake()
     {
@@ -56,14 +57,17 @@ public class AGJ_Camera : MonoBehaviour
         if(reorientationRoutine != null)
         {
             StopCoroutine(reorientationRoutine);
-
-
         }
 
+        StartCoroutine(CenterCamera());
     }
     public void StartFollowing()
     {
         following = true;
+        if (centeringRoutine != null)
+        {
+            StopCoroutine(centeringRoutine);
+        }
 
         beforeRotation = transform.rotation;
 
@@ -74,6 +78,7 @@ public class AGJ_Camera : MonoBehaviour
 
         reorientationRoutine = StartCoroutine(ReorientCamera());
     }
+    
     private IEnumerator ReorientCamera()
     {
         float t = 0;
@@ -90,6 +95,23 @@ public class AGJ_Camera : MonoBehaviour
             t += Time.deltaTime * reorientationSpeed;
 
             yield return new WaitForEndOfFrame();
+        }
+    }
+
+    private IEnumerator CenterCamera()
+    {
+        float t = 0;
+
+        while (t != 1)
+        {
+            localPosition = Vector3.Lerp(localPosition, Vector3.zero, t);
+            localPosition.z = -10;
+
+            transform.SetPositionAndRotation(player.transform.position + localPosition, rotation);
+
+            t += Time.deltaTime * reorientationSpeed;
+
+            yield return null;
         }
     }
 
