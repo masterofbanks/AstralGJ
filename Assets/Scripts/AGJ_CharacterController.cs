@@ -203,6 +203,8 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
         rb2D.MovePosition(q * (rb2D.transform.position - orbitTarget.position) + orbitTarget.position);
         //rb2D.MoveRotation(rb2D.transform.rotation * q);
 
+        sprite.localRotation = Quaternion.identity;
+        vehicleRotationSpeed = 0;
     }
 
     public void ActivateOrbitingMovement(Transform target) 
@@ -211,7 +213,6 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
 
         AugmentSpeed();
 
-        sprite.rotation = Quaternion.identity;
 
         movementBehavior = MovementBehavior.Orbiting;
         orbitTarget = target;
