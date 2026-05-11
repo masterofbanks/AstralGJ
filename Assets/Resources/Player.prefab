@@ -195,9 +195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AGJ_CharacterController
   speedCap: 15
-  speedCapGrowth: 1
+  speedCapGrowth: 1.88
   acceleration: 600
-  accelerationGrowth: 100
+  accelerationGrowth: 165.4
   raycastDistance: 1.2
   rb2D: {fileID: 0}
   direction: {x: 1, y: 0}
@@ -210,9 +210,9 @@ MonoBehaviour:
   movementBehavior: 0
   orbitTarget: {fileID: 0}
   previousOrbitTarget: {fileID: 0}
-  orbitSpeed: 4
+  orbitSpeed: 2.72
   orbitSpeedGrowth: 1
-  orbitLaunchSpeedMult: 0.55
+  orbitLaunchSpeedMult: 0.91
   previousMagnitude: 0
   ParryForce: 15
   Hitbox: {fileID: 2510020338513000558, guid: 20a7295e43cff93478d13b0a7a828f6d, type: 3}
@@ -697,8 +697,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0000038146973, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -6.526365, y: 0}
+  m_Size: {x: 14.052725, y: 2.6348863}
   m_Direction: 0
 --- !u!1 &4241540651264582032
 GameObject:
@@ -828,7 +828,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.67
 --- !u!1 &4943314332864202104
 GameObject:
   m_ObjectHideFlags: 0

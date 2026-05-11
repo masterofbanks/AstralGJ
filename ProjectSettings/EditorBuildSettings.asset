@@ -6,13 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: b9ad4879e9fd32d449db59ad718266e8
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 3228bfeb229eea94d9035e7bfa9e81a0
   - enabled: 1
     path: Assets/Scenes/ParryTutorial.unity
-    guid: 9e6294ba8f747b24fa435e8345f5f554
+    guid: e2ceff55c6d8a154c9b35821193e1fd2
   - enabled: 1
     path: Assets/Scenes/WineTutorial.unity
     guid: 997f139e1f49fb445a20798b390f1979
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: b9c1860d1eae8ad478b7af7a74c45410
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: f002a955e561b9247badc12a24342ab2
+  - enabled: 1
+    path: Assets/Scenes/FinalLevel.unity
+    guid: 908cbf14e5db36b4892d8d129a616924
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
