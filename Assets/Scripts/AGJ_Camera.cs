@@ -24,8 +24,9 @@ public class AGJ_Camera : MonoBehaviour
     [Space(15)]
     [Header("Camera Stuff")]
     private Camera cameraComponent = null;
-    [SerializeField] private float cameraSize = 13.5f;
+    private float cameraSize = 13.5f;
     [SerializeField] private float cameraSize_PlayerSpeed_Divisor = 5f;
+    private float playerSpeed_InitialValue;
 
     private void Awake()
     {
@@ -48,6 +49,9 @@ public class AGJ_Camera : MonoBehaviour
         rotation = transform.rotation;
 
         cameraComponent = GetComponent<Camera>();
+
+        cameraSize = cameraComponent.orthographicSize;
+        playerSpeed_InitialValue = player.SpeedCap;
     }
 
     // Update is called once per frame
@@ -65,6 +69,7 @@ public class AGJ_Camera : MonoBehaviour
         if(reorientationRoutine != null)
         {
             StopCoroutine(reorientationRoutine);
+            reorientationRoutine = null;
         }
 
         centeringRoutine = StartCoroutine(CenterCamera());
@@ -75,6 +80,7 @@ public class AGJ_Camera : MonoBehaviour
         if (centeringRoutine != null)
         {
             StopCoroutine(centeringRoutine);
+            centeringRoutine = null;
         }
 
         beforeRotation = transform.rotation;
@@ -111,7 +117,7 @@ public class AGJ_Camera : MonoBehaviour
 
     public void UpdateCameraSize()
     {
-        cameraComponent.orthographicSize = cameraSize + player.SpeedCap / cameraSize_PlayerSpeed_Divisor;
+        cameraComponent.orthographicSize = cameraSize + player.SpeedCap / playerSpeed_InitialValue / cameraSize_PlayerSpeed_Divisor;
     }
 
     private IEnumerator CenterCamera()
@@ -120,10 +126,14 @@ public class AGJ_Camera : MonoBehaviour
 
         while (t <= 1)
         {
+            Vector3 orbitTargetPosition = Vector3.zero;
+            if (player.OrbitTarget == null) yield return null;
+            else orbitTargetPosition = player.OrbitTarget.position;
+
             localPosition = Vector3.Lerp(localPosition, Vector3.zero, t);
             localPosition.z = -10;
 
-            transform.SetPositionAndRotation(player.OrbitTarget.position + localPosition, rotation);
+            transform.SetPositionAndRotation(orbitTargetPosition + localPosition, rotation);
 
             t += Time.deltaTime * reorientationSpeed;
 

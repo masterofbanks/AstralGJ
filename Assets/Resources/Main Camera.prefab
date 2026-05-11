@@ -153,12 +153,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AGJ_Camera
   player: {fileID: 0}
   reorientationSpeed: 0.3
+  reorientationSpeedDivisor: 50
   rotation: {x: 0, y: 0, z: 0, w: 0}
   beforeRotation: {x: 0, y: 0, z: 0, w: 1}
   localPosition: {x: 0, y: 0, z: 0}
   localPosition_Original: {x: 0, y: 0, z: 0}
   localPosition_AfterOrbit: {x: 0, y: 0, z: 0}
   following: 1
+  cameraSize_PlayerSpeed_Divisor: 0.5
 --- !u!1 &8122101062257988902
 GameObject:
   m_ObjectHideFlags: 0
