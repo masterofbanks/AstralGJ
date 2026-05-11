@@ -107,7 +107,11 @@ public class AGJ_Camera : MonoBehaviour
             localPosition = Vector3.Lerp(localPosition, Vector3.zero, t);
             localPosition.z = -10;
 
-            transform.SetPositionAndRotation(player.transform.position + localPosition, rotation);
+            if(player != null)
+            {
+                transform.SetPositionAndRotation(player.transform.position + localPosition, rotation);
+
+            }
 
             t += Time.deltaTime * reorientationSpeed;
 
