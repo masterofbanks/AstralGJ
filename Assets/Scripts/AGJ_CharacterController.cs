@@ -41,6 +41,7 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
 
     [Space(15)]
     [SerializeField] private Transform orbitTarget = null;
+    public Transform OrbitTarget { get { return orbitTarget; } }
     [SerializeField] private Transform previousOrbitTarget = null;
     [SerializeField] private float orbitSpeed = 4f;
     public float OrbitSpeed { get { return orbitSpeed; } }
@@ -279,5 +280,7 @@ public class AGJ_CharacterController : MonoBehaviour, IWineCollisionListener
         speedCap += speedCapGrowth;
         acceleration += accelerationGrowth;
         orbitSpeed += orbitSpeedGrowth;
+
+        AGJ_Camera.Instance.UpdateCameraSize();
     }
 }

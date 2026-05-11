@@ -157,7 +157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VictoryTrigger
   victorySpeedThreshold: 12
   triggeredOnce: 0
-  victorySequenceDelayBeforeFadeIn: 2
+  victorySequenceDelayBeforeFadeIn: 0.1
   fadeTimeInSeconds: 2
   victorySequenceDelayBeforeLevelLoad: 5
   levelToLoad: TarikScene
+  timeOrbitingBeforeVictoryTriggers: 2

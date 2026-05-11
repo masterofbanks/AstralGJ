@@ -21,6 +21,12 @@ public class AGJ_Camera : MonoBehaviour
     private Coroutine reorientationRoutine = null;
     private Coroutine centeringRoutine = null;
 
+    [Space(15)]
+    [Header("Camera Stuff")]
+    private Camera cameraComponent = null;
+    [SerializeField] private float cameraSize = 13.5f;
+    [SerializeField] private float cameraSize_PlayerSpeed_Divisor = 5f;
+
     private void Awake()
     {
         if(Instance == null)
@@ -40,6 +46,8 @@ public class AGJ_Camera : MonoBehaviour
         localPosition_Original = localPosition;
 
         rotation = transform.rotation;
+
+        cameraComponent = GetComponent<Camera>();
     }
 
     // Update is called once per frame
@@ -59,7 +67,7 @@ public class AGJ_Camera : MonoBehaviour
             StopCoroutine(reorientationRoutine);
         }
 
-        StartCoroutine(CenterCamera());
+        centeringRoutine = StartCoroutine(CenterCamera());
     }
     public void StartFollowing()
     {
@@ -75,6 +83,7 @@ public class AGJ_Camera : MonoBehaviour
         localPosition_AfterOrbit = localPosition;
 
         reorientationSpeed = player.SpeedCap / reorientationSpeedDivisor;
+        UpdateCameraSize();
 
         reorientationRoutine = StartCoroutine(ReorientCamera());
     }
@@ -83,7 +92,7 @@ public class AGJ_Camera : MonoBehaviour
     {
         float t = 0;
 
-        while (t != 1)
+        while (t <= 1)
         {
             //Move the camera more smoothly until it reaches the correct local position
             //Shrink the temp offset until it becomes Vector3.zero
@@ -96,23 +105,32 @@ public class AGJ_Camera : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+
+        reorientationRoutine = null;
+    }
+
+    public void UpdateCameraSize()
+    {
+        cameraComponent.orthographicSize = cameraSize + player.SpeedCap / cameraSize_PlayerSpeed_Divisor;
     }
 
     private IEnumerator CenterCamera()
     {
         float t = 0;
 
-        while (t != 1)
+        while (t <= 1)
         {
             localPosition = Vector3.Lerp(localPosition, Vector3.zero, t);
             localPosition.z = -10;
 
-            transform.SetPositionAndRotation(player.transform.position + localPosition, rotation);
+            transform.SetPositionAndRotation(player.OrbitTarget.position + localPosition, rotation);
 
             t += Time.deltaTime * reorientationSpeed;
 
             yield return null;
         }
+
+        centeringRoutine = null;
     }
 
     private Vector3 GetLocalPositionRelativeToRightVector()
